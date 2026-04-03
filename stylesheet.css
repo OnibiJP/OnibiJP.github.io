@@ -1,0 +1,17 @@
+// <weight>: Use a value from 200 to 700
+// <uniquifier>: Use a unique and descriptive class name
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+#title {
+  font-family: "Oswald";
+}
+
+#gamecanvas {
+  background-color: black;
+}
