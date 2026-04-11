@@ -19,9 +19,11 @@ function draw_background()
   if(draw_background_toggle == true)
   {
     draw.fillstyle = "white";
+    draw_background_toggle = false;
   }else if(draw_background_toggle == false)
   {
     draw.fillstyle = "black";
+    draw_background_toggle = true;
   }
 
   draw.fillRect(0,0,1920,1080);
