@@ -24,7 +24,7 @@ function draw_background()
     draw.fillstyle = "black";
   }
 
-  fillRect(0,0,1920,1080);
+  draw.fillRect(0,0,1920,1080);
 }
   
     
