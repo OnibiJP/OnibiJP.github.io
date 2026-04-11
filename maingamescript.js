@@ -1,5 +1,5 @@
 const FPS = 60;
-const canvas = document.getElementById("gamecanvas");
+const canvas = document.getElementById('gamecanvas');
 const draw = canvas.getContext("2d");
 
 //----関数内で使う変数
